@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+#main-body {
+    background-color: #BFB493;
+    min-width: 666px;
+}
+
+#title-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin: 10px auto 50px auto;
+    width: 700px;
+    background-color: #261D15;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#main-area {
+    width: 630px;
+    margin: 0px auto;
+}
+
+.row {
+    width: 655px;
+    height: 220px;
+    left: 10px;
+    display: flex;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #594B31;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.x-o-text {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.custom-modal {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-modal {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.instruction-text-modal {
+    text-align: center;
+}
+
+.width-foo {
+    width: 600px;
+}
+
+.buttons-container {
+    width: 300px;
+    margin: 0px auto;
+}
+
+.x-or-o {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #403527;
+    color: white;
+    outline: none;
+}
+
+.x-or-o:hover {
+    border: 3px solid #403527;
+    background-color: white;
+    color: #403527;
+}
+
+.x-button {
+    float: left;
+}
+
+.o-button {
+    float: right;
+}
+
+#choose-x {
+    float: left;
+}
+
+#choose-o {
+    float: right;
+}
+
+.can-click {
+    cursor: pointer;
+}

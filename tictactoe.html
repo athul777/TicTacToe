@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel = 'stylesheet' href = "tictactoe.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+        <script type="text/javascript" src="tictactoe.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"></script>
+        <title>Tic-Tac-Toe</title>
+    </head>
+    
+    <body id = "main-body">
+        <h1 id = 'title-text'>Athul's Tic-Tac-Toe Game</h1>
+        <div id = 'main-area'>
+            <div id = 'row-1' class = 'row'>
+                <div id = 'square0' class = 'square'><h1 id = 'text0' class = 'x-o-text'></h1></div>
+                <div id = 'square1' class = 'square'><h1 id = 'text1' class = 'x-o-text'></h1></div>
+                <div id = 'square2' class = 'square'><h1 id = 'text2' class = 'x-o-text'></h1></div>
+            </div>
+            <div id = 'row-2' class = 'row'>
+                <div id = 'square3' class = 'square'><h1 id = 'text3' class = 'x-o-text'></h1></div>
+                <div id = 'square4' class = 'square'><h1 id = 'text4' class = 'x-o-text'></h1></div>
+                <div id = 'square5' class = 'square'><h1 id = 'text5' class = 'x-o-text'></h1></div>
+            </div>
+            <div id = 'row-3' class = 'row'>
+                <div id = 'square6' class = 'square'><h1 id = 'text6' class = 'x-o-text'></h1></div>
+                <div id = 'square7' class = 'square'><h1 id = 'text7' class = 'x-o-text'></h1></div>
+                <div id = 'square8' class = 'square'><h1 id = 'text8' class = 'x-o-text'></h1></div>
+            </div>
+        </div>
+        
+        <div class = 'modal-container'>
+            <div class = 'modal fade custom-modal' id = 'choose-player'>
+                <div class = 'modal-dialog'>
+                    <div class = 'modal-content'>
+                        <div class = 'modal-header'>
+                            <h2 class = 'title-modal'>Please select either X or O</h3>
+                        </div>
+                        <div class = 'modal-body'>
+                            <h3 class = 'instruction-text-modal'>Remember, X plays first and O plays second.</h4>
+                        </div>
+                        <div class = 'modal-footer width-foot'>
+                            <div class = 'buttons-container'>
+                                <button id = 'choose-x' class = 'x-or-o x-button' data-dismiss="modal">X</button>
+                                <button id = 'choose-o' class = 'x-or-o o-button' data-dismiss="modal">O</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class = 'modal-container'>
+            <div class = 'modal fade custom-modal' id = 'play-again'>
+                <div class = 'modal-dialog'>
+                    <div class = 'modal-content'>
+                        <div class = 'modal-header'>
+                            <h2 id = 'who-won' class = 'title-modal'></h3>
+                        </div>
+                        <div class = 'modal-body'>
+                            <h3 class = 'instruction-text-modal'>Remember, X plays first and O plays second.</h4>
+                        </div>
+                        <div class = 'modal-footer width-foot'>
+                            <div class = 'buttons-container'>
+                                <button id = 'choose-x-2' class = 'x-or-o x-button' data-dismiss="modal">X</button>
+                                <button id = 'choose-o-2' class = 'x-or-o o-button' data-dismiss="modal">O</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
